@@ -8,19 +8,7 @@ return(
  //bloco   
     <div>
 
-            <p className='text'>
-                Mais lidas
-            </p>  
-            <List />
-
-        <div className='text'>
-       
-            Mais lidas
-        
-        </div>
-        
-        <List/>  
-
+        <List />
 
     </div>
 )

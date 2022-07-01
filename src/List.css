@@ -1,22 +1,33 @@
-.conatiner{
-    display: flex;
+.container{
+    display:flex;
+    width: auto;
+    height: fit-content;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
 }
-.noticia{
-    width: 320px;
-    border-top: solid 1px;
-    color:brown;
-    border-color: rgb(112, 112, 112);
-    display: flex;
-    margin: 0px;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-bottom: 10px;  
-}
-.numero{
-    padding: 15px;
-    padding-top: 17px;
-    padding-bottom: 11px;
-    color: gray;
+.box{
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #ffffff;
+    width: 220px;
+    height: 220px; 
     font-size: 25px;
+}
+.img{
+    margin: 25px;
+    margin-left: 55px; 
+    width: 120px;
+    height: 120px;
+    background-color: #ececec;
+    border-radius: 50%;
+}
+img{
+    margin: 15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+.box:hover{
+    background-color: #cecece; 
 }
